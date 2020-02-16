@@ -1,0 +1,514 @@
+html {
+    overflow: auto;
+}
+
+body {
+    background-image: url(../images/bg.png);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: #595959;
+    overflow: hidden;
+    min-width: 1000px;
+}
+
+p {
+    margin: 0;
+    letter-spacing: 0.08rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/bg_01.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uni {
+    position: absolute;
+    bottom: 13%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding-left: 450px;
+    width: 17%;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 9%;
+    margin: auto;
+}
+
+.sche {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 25px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.sche .kaijo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sche_flex {
+    margin-right: 100px;
+    text-align: center;
+}
+
+.sche_flex:first-child {
+    margin-left: 100px;
+}
+
+.sche span {
+    background-color: #00AFB0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 17px;
+}
+
+.sche .second {
+    background-color: #E45294;
+}
+
+.present {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+
+.torauni {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.torauni span {
+    color: #00AFB0;
+    font-size: 1rem;
+}
+
+.present h2,
+.what h2,
+.info h2 {
+    color: #FFF001;
+    -webkit-text-stroke: 0.3px #000;
+    text-stroke: 0.3px #000;
+    font-size: 3.5rem;
+    margin-top: 55px;
+}
+
+.present_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uni_image {
+    width: 100%;
+}
+
+.uni_image2 {
+    width: 25%;
+}
+
+.middle {
+    width: 30%;
+}
+
+.present h3 {
+    color: #EA6DA4;
+    font-size: 1.3rem;
+}
+
+iframe {
+    width: 65vw;
+    height: 65vh;
+}
+
+.toracoseat {
+    text-align: center;
+    background-color: #EA6DA4;
+    color: #fff;
+    padding: 70px 0;
+    margin: 50px 0;
+}
+
+.toracoseat h1 {
+    font-size: 1.5rem;
+
+}
+
+.what p {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.what,
+.info {
+    text-align: center;
+    position: relative;
+}
+
+.what {
+    margin-bottom: 150px;
+}
+
+.what h2,
+.info h2 {
+    color: #00AFB0;
+}
+
+.oneimage {
+    width: 500px;
+    position: absolute;
+    left: 50px;
+    top: 0;
+}
+
+.twoimage {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+.fuwafuwa h2,
+.fuwafuwa p {
+    margin: 0;
+}
+
+.fuwafuwa h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.fuwafuwa span {
+    color: #FFF001;
+    border-bottom: 2px solid #000;
+}
+
+.toracojpg {
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 10px solid #FFF001;
+}
+
+.girl {
+    position: absolute;
+    bottom: -50px;
+    right: 120px;
+}
+
+.cosme {
+    position: absolute;
+    top: 60px;
+    left: 450px;
+}
+
+.toracomake {
+    position: relative;
+}
+
+.toracomake2 {
+    position: absolute;
+    top: 180px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bg_02 {
+    margin-top: 100px;
+    width: 750px;
+}
+
+.fukidashi {
+    position: relative;
+    position: absolute;
+    top: -70px;
+    right: 400px;
+}
+
+.fukidashi p {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.fukidashi span {
+    color: #EA6DA4;
+}
+
+.fuwafuwa .fukidashi {
+    width: 100px;
+    top: 50px;
+    right: 500px;
+}
+
+.fuwafuwa .fukidashi p {
+    top: 50px;
+    right: -50px;
+}
+
+
+.fuwafuwa .fukidashi img {
+    width: 150px;
+}
+
+.girl2 {
+    position: absolute;
+    left: 150px;
+    bottom: -150px;
+}
+
+.info .oneimage {
+    left: 200px;
+}
+
+.info .twoimage {
+    right: 150px;
+    top: 0;
+}
+
+.white {
+    background-color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    height: 2300px;
+}
+
+.white p {
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 15px 0;
+}
+
+.white span {
+    color: #EA6DA4;
+    font-size: 0.7rem;
+}
+
+.ribbon-wrap {
+    box-sizing: border-box;
+    height: 45px;
+    margin: 30px auto;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 260px;
+    z-index: 999;
+}
+
+.ribbon-wrap::before,
+.ribbon-wrap::after {
+    border-color: rgb(197, 95, 139);
+    border-style: solid;
+    bottom: -10px;
+    content: '';
+    position: absolute;
+    width: 0;
+    z-index: -2;
+}
+
+.ribbon-wrap::before {
+    border-left-color: transparent;
+    border-width: 20px 15px 20px 15px;
+    left: -20px;
+}
+
+.ribbon-wrap::after {
+    border-right-color: transparent;
+    border-width: 20px 15px 20px 15px;
+    right: -20px;
+}
+
+h1.ribbon {
+    font-size: 14px;
+}
+
+.ribbon {
+    background: #EA6DA4;
+    color: #fff;
+    padding: 12px 20px;
+    position: relative;
+}
+
+.ribbon::before,
+.ribbon::after {
+    border: none;
+    border-bottom: solid 10px transparent;
+    content: '';
+    position: absolute;
+    top: 100%;
+}
+
+.ribbon::before {
+    left: 0;
+    border-right: solid 10px rgb(109, 43, 71);
+}
+
+.ribbon::after {
+    right: 0;
+    border-left: solid 10px rgb(150, 54, 95);
+}
+
+.white .sche_flex {
+    border: solid 2px #595959a2;
+    padding: 20px;
+    flex: 1;
+}
+
+.white .kaijo {
+    font-size: 1rem;
+}
+
+.sche_flex .second {
+    color: #fff;
+}
+
+.sche h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.sche .wappen {
+    background-color: inherit;
+    font-size: 0.8rem;
+}
+
+.ryokin {
+    background-color: #FFF001;
+    height: 30px;
+    color: #00AFB0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white .sche {
+    height: 550px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tokuten {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.tokuten .ryokin {
+    flex: 1;
+    background-color: #E45294;
+    color: #FFF001;
+}
+
+.tokuten .ryokin:first-child {
+    background-color: #00AFB0;
+}
+
+.pink {
+    color: #E45294;
+}
+
+.flex {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.flex_item {
+    flex: 1;
+}
+
+.border {
+    border: 2px solid #E45294;
+    margin-bottom: 50px;
+}
+
+.green {
+    color: #00AFB0;
+}
+
+.flex2 .flex_item {
+    text-align: left;
+}
+
+.third .toracoseat {
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.toracokoushiki {
+    text-align: center;
+    background-color: #fff;
+    color: #00AFB0;
+    padding: 70px 0;
+}
+
+.toracokoushiki h1 {
+    font-size: 1.5rem;
+}
+
+.yellow {
+    text-align: center;
+    padding: 25px;
+    background-color: #FFF001;
+}
+
+.yellow img {
+    margin-right: 15px;
+    width: 50px;
+}
+
+.yellow img:first-child {
+    margin-left: 15px;
+}
+
+footer {
+    background-color: #3E3A39;
+    padding: 25px;
+    color: #A9A398;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+footer img {
+    margin-right: 15px;
+}
+
+small {
+    font-size: 0.6rem;
+}
